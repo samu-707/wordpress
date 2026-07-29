@@ -35,7 +35,7 @@ spec:
           value: wpuser
 
         - name: WORDPRESS_DB_USER
-          value:wpuser
+          value: wpuser
           
         - name: WORDPRESS_DB_PASSWORD
           value: wordpress
