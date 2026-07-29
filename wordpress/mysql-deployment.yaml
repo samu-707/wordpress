@@ -45,11 +45,3 @@ spec:
             secretKeyRef:
               name: wordpress-secret
               key: MYSQL_PASSWORD
-
-        volumeMounts:
-        - name: mysql-data
-          mountPath: /var/lib/mysql
-
-      volumes:
-      - name: mysql-data
-        emptyDir: {}
