@@ -32,7 +32,7 @@ spec:
           value: mysql
 
         - name: WORDPRESS_DB_NAME
-          value: wpuser
+          value: wordpress
 
         - name: WORDPRESS_DB_USER
           value: wpuser
