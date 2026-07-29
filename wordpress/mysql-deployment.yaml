@@ -29,4 +29,4 @@ spec:
         - name: MYSQL_USER
           value: wpuser
         - name: MYSQL_PASSWORD
-          value: root123
+          value: wordpress
