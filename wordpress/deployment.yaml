@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: samuvel7/wordpress:$CI_COMMIT_SHORT_SHA
+        image: samuvel7/wordpress:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
